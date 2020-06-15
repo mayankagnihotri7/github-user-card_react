@@ -1,0 +1,22 @@
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    background-color: #e7a61a;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,1);
+    color: cornsilk;
+}
+
+a {
+    color: palegoldenrod;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+a:hover {
+    color: mediumslateblue;
+}
